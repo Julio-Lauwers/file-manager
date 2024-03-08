@@ -2,7 +2,7 @@
 
 
 <p align="center">O File Manager é uma aplicação web desenvolvida em Node.js, Express, React e Tailwind, projetada para ajudar na organização e gerenciamento de documentos pessoais e profissionais.</p>
-<p>Este projeto foi desenvolvivo com o intuito de praticar a utilização do CRUD e integração entre backend e frontend</p>
+<p align="center">Este projeto foi desenvolvivo com o intuito de praticar a utilização do CRUD e integração entre backend e frontend</p>
 
 <h2>Funcionalidades principais</h2>
 <p>.</p>
