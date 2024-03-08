@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/docs
+Content-Type: application/json
+
+{
+    "name": "Algum documento 01",
+    "description": "Descrição de algum documento",
+    "document": "Algum documento"
+} 
+
+
+###
+GET http://localhost:3000/api/docs
+
+###
+GET http://localhost:3000/api/docs/6557b94d395938ed6a8d85c0
+
+###
+DELETE  http://localhost:3000/api/docs/6557b94d395938ed6a8d85c0
+
+###
+PUT http://localhost:3000/api/docs/6557b94d395938ed6a8d85c0
+Content-Type: application/json
+
+{
+    "name": "Algum documento 0S",
+    "description": "Descrição de algum documento",
+    "document": "COMPILADÃO - Experiência e Interface com o Usuário.pdf"
+} 
