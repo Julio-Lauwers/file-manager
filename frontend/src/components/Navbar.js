@@ -10,18 +10,24 @@ const Navbar = () => {
       <Link to="/">File Manager</Link>
       <form>
         <BsSearch />
-        <input type="text"/>
+        <input type="text" placeholder="Buscar documento"/>
       </form>
       <ul id="nav-links">
+        <li>
         <NavLink to="/">
           <BsHouseDoorFill/>
         </NavLink>
+        </li>
+        <li>
         <NavLink to="/login">
           Entrar
         </NavLink>
+        </li>
+        <li>
         <NavLink to="/register">
           Cadastrar
         </NavLink>
+        </li>
       </ul>
     </nav>
   )
