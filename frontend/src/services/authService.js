@@ -1,4 +1,4 @@
-import {api, requestConfig} from '..utils/config'
+import {api, requestConfig} from '../utils/config'
 
 //Register an user
 
@@ -8,10 +8,10 @@ const register = async(data) => {
 
     try {
         
-        const res = await fetch(api + "/users/register", config).then((res) => res.json()).catch((error) => err)
+        const res = await fetch(api + "/users/register", config).then((res) => res.json()).catch((error) => error)
 
         if(res) {
-            localStorage.setItem("user", JASON.stringify(res))
+            localStorage.setItem("user", JSON.stringify(res))
         }
 
     } catch (error) {
